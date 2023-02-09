@@ -2,7 +2,7 @@ import "./App.css";
 import { useMemo, useState } from "react";
 
 function App() {
-  let [value, setValue] = useState(false)
+  let [value, setValue] = useState()
   const pattern = new RegExp(/^\d+$/);
   
   const set =(e)=>{
