@@ -15,7 +15,7 @@ function App() {
     } else {
       return false
     }
-  }, value);
+  }, [value]);
 
   return (
     <div className="App">
